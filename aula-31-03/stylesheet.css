@@ -1,8 +1,13 @@
-body{
+.bg-custom {
     background-color: #29143b;
+    font-family: 'Roboto', Arial, sans-serif;
+  } 
+
+* {
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
-form {
+  form {
     background-color: #ffffff;
     margin: 0 auto;
     width: 400px;
@@ -16,12 +21,7 @@ form div + div {
     margin-top: 1em;
 }
 
-label {
-    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-}
+ 
 
 input {
     /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
